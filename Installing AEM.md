@@ -23,14 +23,21 @@ within which the war file is deployed.
 Port - 4502 
 
 1) Create a directory and name it author.
+
 2) Copy the cq5-<version>.jar file into author/ and copy a valid license.properties to the same folder.
+
 3) Rename cq5-<version>.jar to cq5-author-p4502.jar.
+
 4) Start AEM
+    
     i) Double-click the cq5-author-p4502.jar file.
-    ii) a) 32bit VM type:
+    
+    ii) or Command line
+        
+        * 32bit VM type:
         java -Xmx1024M -jar cq5-author-p4502.jar
         
-        b) 64bit VM, type:
+        * 64bit VM, type:
         java -XX:MaxPermSize=256m -Xmx1024M -jar cq5-author-p4502.jar
 
 If you need a different port this can be set in the filename.
