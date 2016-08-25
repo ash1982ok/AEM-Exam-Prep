@@ -17,3 +17,4 @@ VM options
 -Dorg.apache.catalina.SESSION_COOKIE_NAME=SJSESSIONID
 
 
+%IDEA_RUN:TOMCAT_HOME%\logs\store\*.log
